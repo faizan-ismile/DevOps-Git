@@ -1,0 +1,21 @@
+default:
+  server:
+    port: 3000
+  database:
+    host: localhost
+    port: 3306
+    user: root
+    password: yourpassword
+    db: mydb
+
+development:
+  database:
+    db: dev_db
+
+production:
+  server:
+    port: 8000
+  database:
+    db: prod_db
+    user: prod_user
+    password: prod_pass
